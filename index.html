@@ -1,32 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <div class="container">
-        <header>
-            <div class="logo">
-              <img src="./images/logo.png" alt="logo" />
-            </div>
-            <div class="avatar user-avatar">
-              <img src="./images/user-avatar.jpeg" alt="user-avatar" />
-            </div>
-          </header>
-          <hr />
-          <main id="main-el">
-          </main>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a class="logo" href="#">
+        <img src="./images/logo.png" alt="">
+      </a>
+      <img class="avatar header-avatar " src="./images/user-avatar.jpeg" alt="">
+    </header>
+    <div class="post">
+      <div class="post-header">
+        <img class="avatar post-avatar" src="./images/avatar-vangogh.jpg" alt="">
+        <div class="post-info">
+          <strong class="post-username">Vincent van Gogh</strong>
+          <small class="post-location">Zudert, Netherlands</small>
+        </div>
+      </div>
+      <img src="./images/post-vangogh.jpg" alt="" class="post-img">
+      <ul class="icon-list">
+        <li class="icon-item">
+          <img src="./images/icon-heart.png" alt="">
+        </li>
+        <li class="icon-item">
+          <img src="./images/icon-comment.png" alt="">
+        </li>
+        <li class="icon-item">
+          <img src="./images/icon-dm.png" alt="">
+        </li>
+      </ul>
+      <strong class="like-numbers">21,492 likes</strong>
+      <p class="post-comment"><strong>vincey1853</strong> just took a few mushrooms lol</p>
+
     </div>
-    <script src="./main.js"></script>
-  </body>
+    <div class="post">
+      <div class="post-header">
+        <img class="avatar post-avatar" src="./images/avatar-ducreux.jpg" alt="">
+        <div class="post-info">
+          <strong class="post-username">Vincent van Gogh</strong>
+          <small class="post-location">Zudert, Netherlands</small>
+        </div>
+      </div>
+      <img src="./images/post-ducreux.jpg" alt="" class="post-img">
+      <ul class="icon-list">
+        <li class="icon-item">
+          <img src="./images/icon-heart.png" alt="">
+        </li>
+        <li class="icon-item">
+          <img src="./images/icon-comment.png" alt="">
+        </li>
+        <li class="icon-item">
+          <img src="./images/icon-dm.png" alt="">
+        </li>
+      </ul>
+      <strong class="like-numbers">21,492 likes</strong>
+      <p class="post-comment"><strong>vincey1853</strong> just took a few mushrooms lol</p>
+
+    </div>
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
 </html>
