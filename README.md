@@ -2,13 +2,13 @@
 
 <div align="center">
   <h3>
-    <a href="https://jake3elwood.netlify.app/">
+    <a href="https://muhmmadawd.github.io/oldagram/">
       Live Demo
     </a>
   </h3>
 </div>
 
-![screenshot](https://github.com/MuhmmadAwd/upload-gif/blob/main/jake3elwood.gif)
+![screenshot](https://github.com/MuhmmadAwd/upload-gif/blob/main/OLDAGRAM.gif)
 
 <!-- TABLE OF CONTENTS -->
 
